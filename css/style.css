@@ -1,0 +1,58 @@
+.logo-span {
+    color: #212121;
+}
+
+.logo {
+    color: #2196F3;
+}
+
+.studio {
+    color: #2196F3;
+}
+
+.Portfolio-Contacts {
+    color: #212121;
+}
+
+.service {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.cap {
+    background-color: #234058;
+}
+
+h1 {
+    color: #FFFFFF;
+}
+
+.basement {
+    background-color: #234058;
+}
+
+.logo-basement {
+    color: #FFFFFF;
+}
+
+.tel {
+    color: #757575;
+}
+
+.filters {
+    color: #212121;
+    background-color: #F5F4FA;
+}
+
+.filters:hover {
+    color: #FFFFFF;
+    background-color: #2196F3;
+}
+
+.title {
+    color: #757575;
+}
+
+.project {
+    color: #212121;
+}
