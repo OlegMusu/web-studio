@@ -6,12 +6,12 @@
     color: #2196F3;
 }
 
-.studio {
-    color: #2196F3;
-}
-
 .Portfolio-Contacts {
     color: #212121;
+}
+
+.Portfolio-Contacts:hover {
+    color: #2196F3;
 }
 
 .service {
@@ -55,4 +55,12 @@ h1 {
 
 .project {
     color: #212121;
+}
+
+.Portfolio {
+    color: #757575;
+}
+
+.Portfolio:hover {
+    color: #2196F3;
 }
