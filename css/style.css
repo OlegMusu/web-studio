@@ -137,3 +137,9 @@ header {
 .telephone {
     text-indent: 1263px;
 }
+
+.studio {
+    color: #2196F3;
+    font-size: 14px;
+    font-weight: 500;
+}
