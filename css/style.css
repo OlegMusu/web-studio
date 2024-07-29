@@ -1,13 +1,19 @@
 .logo-span {
     color: #212121;
+    text-transform: capitalize;
 }
 
 .logo {
     color: #2196F3;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: capitalize;
 }
 
 .Portfolio-Contacts {
     color: #212121;
+    font-weight: 500;
+    font-size: 14px;
 }
 
 .Portfolio-Contacts:hover {
@@ -17,22 +23,31 @@
 .service {
     background-color: #2196F3;
     color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .cap {
-    background-color: #234058;
+    background-color: #2F303A;
+    text-align: center;
 }
 
 h1 {
     color: #FFFFFF;
+    font-size: 44px;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 .basement {
-    background-color: #234058;
+    background-color: #2F303A;
 }
 
 .logo-basement {
     color: #FFFFFF;
+    font-size: 26px;
+    font-weight: 700;
+    text-transform: capitalize
 }
 
 .tel {
@@ -51,6 +66,8 @@ h1 {
 
 .title {
     color: #757575;
+    font-size: 14px;
+    font-weight: 400;
 }
 
 .project {
@@ -59,8 +76,64 @@ h1 {
 
 .Portfolio {
     color: #757575;
+    font-size: 14px;
+    font-weight: 500;
 }
 
 .Portfolio:hover {
     color: #2196F3;
+}
+
+.titleh3 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 34px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.team {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.base-ment {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+header {
+    text-indent: 215px;
+}
+
+.studio2 {
+    text-indent: 453px;
+}
+
+.portfolio2 {
+    text-indent: 548px;
+}
+
+.contact {
+    text-indent: 670px;
+}
+
+.gmail {
+    text-indent: 1078px;
+}
+
+.telephone {
+    text-indent: 1263px;
 }
