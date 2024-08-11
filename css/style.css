@@ -1,9 +1,15 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
 .logo-span {
+    font-family: "Raleway", sans-serif;
     color: #212121;
 }
 
 .logo {
-    color: #2196F3;
+    font-family: "Raleway", sans-serif;
+    color: var(--brand-color);
     font-size: 26px;
     font-weight: 700;
     text-indent: 215px;
@@ -15,12 +21,17 @@
     font-size: 14px;
 }
 
-.Portfolio-Contacts:hover {
+/* .Portfolio-Contacts:active {
     color: #2196F3;
+} */
+
+.Portfolio-Contacts:focus,
+.Portfolio-Contacts:hover {
+    color: var(--brand-color);
 }
 
 .service {
-    background-color: #2196F3;
+    background-color: var(--brand-color);
     color: #FFFFFF;
     font-size: 16px;
     font-weight: 700;
@@ -67,9 +78,15 @@ h1 {
     line-height: 26px;
 }
 
-.filters:hover {
+/* .filters:active {
     color: #FFFFFF;
     background-color: #2196F3;
+} */
+
+.filters:focus,
+.filters:hover {
+    color: #FFFFFF;
+    background-color: var(--brand-color);
 }
 
 .title {
@@ -88,15 +105,20 @@ h1 {
     font-weight: 500;
 }
 
-.Portfolio:hover {
+/* .Portfolio:active {
     color: #2196F3;
+} */
+
+.Portfolio:focus,
+.Portfolio:hover {
+    color: var(--brand-color);
 }
 
 .titleh3 {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
-    color: #212121;
+    color: hsl(0, 0, 13);
 }
 
 h2 {
@@ -114,7 +136,7 @@ h2 {
 }
 
 .team {
-    color: #757575;
+    color: rgb(117, 117, 117,);
     font-size: 16px;
     font-weight: 400;
 }
@@ -130,7 +152,7 @@ header {
 }
 
 .studio {
-    color: #2196F3;
+    color: var(--brand-color);
     font-size: 14px;
     font-weight: 500;
 }
@@ -161,7 +183,7 @@ ul {
 }
 
 .base-ment2 {
-    color: #FFFFFF;
+    color: rgba(117, 117, 117, 6);
     font-size: 14px;
     font-weight: 400;
 }
@@ -179,3 +201,7 @@ ul {
 a {
     text-decoration: none;
 }
+
+:root {
+    --brand-color: #2196F3;
+    }
