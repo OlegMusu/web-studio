@@ -39,7 +39,7 @@
     width: 216px;
 }
 
-.cap {
+.hero {
     background-color: #2F303A;
     text-align: center;
     height: 600px;
@@ -54,11 +54,12 @@ h1 {
     transform: uppercase;
 }
 
-.basement {
+.ftr {
     background-color: #2F303A;
 }
 
 .logo-basement {
+    font-family: "Raleway", sans-serif;
     color: #FFFFFF;
     font-size: 26px;
     font-weight: 700;
@@ -114,7 +115,7 @@ h1 {
     color: var(--brand-color);
 }
 
-.titleh3 {
+.subtitle {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -157,10 +158,6 @@ header {
     font-weight: 500;
 }
 
-body {
-    font-family: Roboto, Raleway;
-}
-
 button {
     border: none;
     border-radius: 4px;
@@ -178,11 +175,7 @@ ul {
     display: flex
 }
 
-.title4 {
-    display: flex;
-}
-
-.base-ment2 {
+.base-ment-list {
     color: rgba(117, 117, 117, 6);
     font-size: 14px;
     font-weight: 400;
@@ -205,3 +198,9 @@ a {
 :root {
     --brand-color: #2196F3;
     }
+
+.container {
+    width: 480px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
