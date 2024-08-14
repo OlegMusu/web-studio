@@ -1,4 +1,8 @@
-* {
+:root {
+    --brand-color: #2196F3;
+    }
+
+body {
     font-family: "Roboto", sans-serif;
 }
 
@@ -43,6 +47,8 @@
     background-color: #2F303A;
     text-align: center;
     height: 600px;
+    width: 1600px;
+    margin-top: 80px;
 }
 
 h1 {
@@ -50,12 +56,15 @@ h1 {
     font-size: 44px;
     font-weight: 900;
     line-height: 60px;
+    width: 696px;
     text-align: center; 
     transform: uppercase;
 }
 
 .ftr {
     background-color: #2F303A;
+    width: 1600px;
+    height: 252px;
 }
 
 .logo-basement {
@@ -94,6 +103,8 @@ h1 {
     color: #757575;
     font-size: 14px;
     font-weight: 400;
+    width: 270px;
+    height: 98px;
 }
 
 .project {
@@ -150,6 +161,7 @@ h2 {
 
 header {
     height: 80px;
+    width: 1600;
 }
 
 .studio {
@@ -167,12 +179,10 @@ ul {
     list-style-type: none;
 }
 
-.box1 {
-    display: flex;
-}
-
-.We-team-ul1 {
-    display: flex
+.We-team-list {
+    width: 1600px;
+    height: 648px;
+    margin-top: 94px;
 }
 
 .base-ment-list {
@@ -185,7 +195,7 @@ ul {
     text-align: center;
 }
 
-.Portfolio-Contacts2 {
+.portfolio-list {
     color: #212121;
     font-weight: 500;
     font-size: 14px;
@@ -195,12 +205,18 @@ a {
     text-decoration: none;
 }
 
-:root {
-    --brand-color: #2196F3;
-    }
-
 .container {
     width: 480px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding-left: 215px;
+  }
+
+  .hdr-list {
+    width: 1170px;
+    height: 98px;
+  }
+
+  .works {
+    width: 1170px;
+    height: 386px;
   }
