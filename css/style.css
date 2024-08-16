@@ -11,6 +11,14 @@ body {
     color: #212121;
 }
 
+.header-logo {
+    font-family: "Raleway", sans-serif;
+    color: var(--brand-color);
+    font-size: 26px;
+    font-weight: 700;
+    text-indent: 215px;
+}
+
 .logo {
     font-family: "Raleway", sans-serif;
     color: var(--brand-color);
@@ -19,18 +27,18 @@ body {
     text-indent: 215px;
 }
 
-.Portfolio-Contacts {
+.nav-page {
     color: #212121;
     font-weight: 500;
     font-size: 14px;
 }
 
-/* .Portfolio-Contacts:active {
+/* .nav-page:active {
     color: #2196F3;
 } */
 
-.Portfolio-Contacts:focus,
-.Portfolio-Contacts:hover {
+.nav-page:focus,
+.nav-page:hover {
     color: var(--brand-color);
 }
 
@@ -41,6 +49,7 @@ body {
     font-weight: 700;
     height: 50px;
     width: 216px;
+    margin-top: 30px;
 }
 
 .hero {
@@ -61,10 +70,11 @@ h1 {
     transform: uppercase;
 }
 
-.ftr {
+.footer {
     background-color: #2F303A;
     width: 1600px;
     height: 252px;
+    text-indent: 215px;
 }
 
 .logo-basement {
@@ -99,7 +109,7 @@ h1 {
     background-color: var(--brand-color);
 }
 
-.title {
+.advantages-text {
     color: #757575;
     font-size: 14px;
     font-weight: 400;
@@ -107,26 +117,22 @@ h1 {
     height: 98px;
 }
 
-.project {
-    color: #212121;
-}
-
-.Portfolio {
+.header-link {
     color: #757575;
     font-size: 14px;
     font-weight: 500;
 }
 
-/* .Portfolio:active {
+/* .header-link:active {
     color: #2196F3;
 } */
 
-.Portfolio:focus,
-.Portfolio:hover {
+.header-link:focus,
+.header-link:hover {
     color: var(--brand-color);
 }
 
-.subtitle {
+.advantages-subtitle {
     font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
@@ -179,10 +185,9 @@ ul {
     list-style-type: none;
 }
 
-.We-team-list {
+.we-team-list {
     width: 1600px;
     height: 648px;
-    margin-top: 94px;
 }
 
 .base-ment-list {
@@ -211,7 +216,7 @@ a {
     padding-left: 215px;
   }
 
-  .hdr-list {
+  .advantages-list {
     width: 1170px;
     height: 98px;
   }
@@ -219,4 +224,38 @@ a {
   .works {
     width: 1170px;
     height: 386px;
+  }
+
+  .works-list {
+    margin-top: 50px;
+    display: flex;
+  }
+
+  .we-team-item,
+  .advantages-item,
+  .works-item {
+    margin-left: 30px;
+  }
+
+  .we-team-list {
+    margin-top: 50px;
+    display: flex;
+  }
+
+  .address-item {
+    margin-bottom: 9px;
+  }
+
+  .address {
+    margin-top: 20px;
+  }
+
+  .we-teams {
+    text-align: center;
+    width: 1600px;
+    height: 648px;
+  }
+
+  .header {
+    display: flex;
   }
