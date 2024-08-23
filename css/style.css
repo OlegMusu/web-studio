@@ -1,3 +1,9 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
 :root {
     --brand-color: #2196F3;
     --weight-color: #FFFFFF;
@@ -12,6 +18,12 @@
 body {
     font-family: "Roboto", sans-serif;
 }
+
+.container {
+    width: 480px;
+    margin: 0 auto;
+    padding-left: 215px;
+  }
 
 .logo-span {
     font-family: "Raleway", sans-serif;
@@ -222,12 +234,6 @@ ul {
 a {
     text-decoration: none;
 }
-
-.container {
-    width: 480px;
-    margin: 0 auto;
-    padding-left: 215px;
-  }
 
   .advantages-list {
     width: 1170px;
