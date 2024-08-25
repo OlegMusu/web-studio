@@ -160,14 +160,12 @@ header {
     color: var(--brand-color);
     font-size: 26px;
     font-weight: 700;
-    text-indent: 215px;
 }
 
 .footer {
     background-color: var(--background-brand-color);
     width: 1600px;
     height: 252px;
-    text-indent: 215px;
     margin-top: 94px;
 }
 
