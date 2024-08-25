@@ -25,6 +25,21 @@ body {
     padding: 0 10px;
 }
 
+/* flex-container  */
+    /* display: flex;
+    display: inline-flex; */
+    /* flex-direction: row | row-reverse | column | column-reverse; */
+    /* row	Дефолтне значення зліва направо. Flex-елементи розташовуються в ряд.
+    row-reverse	Напрямок з права наліво. Flex-елементи розташовуються в ряд відносно правого краю елемента.
+    column	Напрямок зверху донизу. Flex-елементи викладаються у колонку.
+    column-reverse	Колонка з елементами у зворотному порядку, знизу догори. */
+
+    .heder-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
 /* header */
 
 header {
@@ -51,12 +66,6 @@ header {
 .header-link:hover {
     color: var(--brand-color);
 }
-
-.heder-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
 
 /* .header-link:active {
     color: #2196F3;
@@ -105,8 +114,8 @@ header {
     font-size: 44px;
     font-weight: 900;
     line-height: 60px;
-    width: 696px;
-    transform: uppercase; 
+    transform: uppercase;
+    justify-content: center;
 }
 
 /* advantage(s) */
