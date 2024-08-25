@@ -12,20 +12,25 @@
     --background-brand-color: #2F303A;
     --portfolio-border-color: #EEEEEE;
     --header-border-color: #ECECEC;
-    --we-team-color: #F5F4FA;
+    --team-color: #F5F4FA;
 }
 
 body {
     font-family: "Roboto", sans-serif;
 }
 
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
 /* header */
 
 header {
     height: 80px;
-    width: 1600;
+    width: 1600px;
     border: 1px solid var(--header-border-color);
-    display: flex;
 }
 
 .header-logo {
@@ -46,6 +51,12 @@ header {
 .header-link:hover {
     color: var(--brand-color);
 }
+
+.heder-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 
 /* .header-link:active {
     color: #2196F3;
@@ -134,17 +145,9 @@ header {
 }
 
 .advantages-item,
-.we-team-item,
+.team-item,
 .works-item {
-    margin-left: 30px;
-}
-
-
-
-.container {
-    width: 480px;
-    margin: 0 auto;
-    padding-left: 215px;
+    padding: 15px;
 }
 
 .logo-span {
@@ -182,7 +185,7 @@ header {
 
 .filters {
     color: var(--main-text-color);
-    background-color: var(--we-team-color);
+    background-color: var(--team-color);
     height: 38px;
     size: 16px;
     font-weight: 500;
@@ -236,8 +239,7 @@ button {
     border-radius: 4px;
 }
 
-.we-team-list {
-    width: 1600px;
+.team-list {
     height: 648px;
 }
 
@@ -261,7 +263,6 @@ button {
 }
 
 .works {
-    width: 1170px;
     height: 386px;
     margin-top: 94px;
   }
@@ -271,7 +272,7 @@ button {
     display: flex;
   }
 
-  .we-team-list {
+  .team-list {
     margin-top: 50px;
     display: flex;
   }
@@ -286,14 +287,13 @@ button {
 
   .team {
     text-align: center;
-    width: 1600px;
     height: 648px;
-    background-color: var(--we-team-color);
+    background-color: var(--team-color);
     margin-bottom: 30px;
     margin-top: 94px;
   }
 
-  .we-team-img {
+  .team-img {
     width: 260px;
   }
 
