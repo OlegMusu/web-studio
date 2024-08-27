@@ -34,10 +34,6 @@ body {
         justify-content: space-between;
     }
 
-    .flex-container {
-        display: flex;
-    }
-
 /* header */
 
 header {
@@ -46,12 +42,15 @@ header {
     border: 1px solid var(--header-border-color);
 }
 
+.header {
+    display: flex;
+}
+
 .header-logo {
     font-family: "Raleway", sans-serif;
     color: var(--brand-color);
     font-size: 26px;
     font-weight: 700;
-    text-indent: 215px;
 }
 
 .header-link {
@@ -69,8 +68,9 @@ header {
     color: #2196F3;
 } */
 
-.header-contact {
-    padding-left: 50px;
+.header-contacts {
+    display: flex;
+    gap: 50px;
 }
 
 /* nav */
@@ -81,10 +81,6 @@ header {
     font-size: 14px;
 }
 
-.nav-item {
-    padding-right: 50px;
-}
-
 /* .nav-page:active {
     color: #2196F3;
 } */
@@ -92,6 +88,11 @@ header {
 .nav-page:focus,
 .nav-page:hover {
     color: var(--brand-color);
+}
+
+.nav-list {
+    display: flex;
+    gap: 50px;
 }
 
 /* hero */
@@ -110,8 +111,7 @@ header {
     color: var(--white-color);
     font-size: 16px;
     font-weight: 700;
-    height: 50px;
-    width: 216px;
+    padding: 10px 32px;
     margin-top: 30px;
 }
 
@@ -119,24 +119,27 @@ header {
     color: var(--white-color);
     font-size: 44px;
     font-weight: 900;
-    line-height: 60px;
     transform: uppercase;
-    justify-content: center;
+    flex-wrap: wrap;
 }
 
 /* advantage(s) */
-
-.advantage {
-    border: 1px solid var(--portfolio-border-color);
-}
   
 .advantages-text {
     color: var(--gray-color);
     font-size: 14px;
     font-weight: 400;
-    width: 270px;
-    height: 98px;
     margin-top: 10px;
+}
+
+.advantage-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.advantages-list {
+    display: flex;
+    gap: 30px;
 }
 
 .advantages-subtitle {
@@ -144,18 +147,21 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     color: var(--main-text-color);
+    margin-bottom: 4px;
+    margin-top: 20px;
 }
 
-.advantages-list {
-    border: 1px solid var(--portfolio-border-color);
-    height: 98px;
-    display: flex;
-}
-
-.advantages-item,
-.team-item,
-.works-item {
+.advantages-item {
     padding: 15px;
+}
+
+.works-item {
+    padding: 0 15px;
+}
+
+.team-item {
+    background-color: var(--white-color);
+    padding: 0 15px;
 }
 
 .logo-span {
@@ -257,7 +263,7 @@ button {
 
 .center-button {
     display: flex;
-    text-align: center;
+    justify-content: center;
     margin-bottom: 50px;
     margin-top: 94px;
 }
@@ -284,7 +290,7 @@ button {
   }
 
   .address-item {
-    padding-bottom: 9px;
+    margin-bottom: 9px;
   }
 
   .address {
@@ -301,12 +307,4 @@ button {
 
   .team-img {
     width: 260px;
-  }
-
-  .project {
-    margin-left: 30px;
-  }
-
-  .team-item {
-    background-color: var(--white-color);
   }
