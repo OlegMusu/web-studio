@@ -13,6 +13,10 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+button {
+    border-radius: 4px;
+}
+
 .container {
     width: 1170px;
     margin: 0 auto;
@@ -37,13 +41,12 @@ body {
 /* header */
 
 header {
-    height: 80px;
-    width: 1600px;
     border: 1px solid var(--header-border-color);
 }
 
 .header {
     display: flex;
+    padding: 24px 0;
 }
 
 .header-logo {
@@ -99,11 +102,8 @@ header {
 
 .hero {
     background-color: var(--background-dark-color);
-    height: 600px;
-    width: 1600px;
-    margin-top: 80px;
-    margin-bottom: 94px;
     text-align: center;
+    padding: 200px 0;
 }
 
 .hero-button {
@@ -124,6 +124,10 @@ header {
 }
 
 /* advantage(s) */
+
+.advantages {
+    padding-top: 94px;
+}
   
 .advantages-text {
     color: var(--gray-color);
@@ -147,22 +151,94 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     color: var(--main-text-color);
-    margin-bottom: 4px;
-    margin-top: 20px;
+    justify-content: space-between;
 }
 
 .advantages-item {
     padding: 15px;
 }
 
-.works-item {
-    padding: 0 15px;
+.advantages-item {
+    max-width: 270px;
 }
+
+/* work(s) */
+
+.works {
+    padding: 94px 0;
+}
+
+.works-item {
+    justify-content: space-between;
+}
+
+.works-list {
+    margin-top: 50px;
+    display: flex;
+  }
+
+/* team */
+
+.team-name {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--main-text-color);
+}
+
+.team-position {
+    color: var(--gray-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* .team-list {
+    
+} */
 
 .team-item {
     background-color: var(--white-color);
     padding: 0 15px;
 }
+
+.team-list {
+    margin-top: 50px;
+    display: flex;
+}
+
+.team {
+    text-align: center;
+    background-color: var(--background-light-color);
+    padding: 94px 0;
+}
+
+.team-img {
+    width: 260px;
+}
+
+/* footer */
+
+.footer {
+    background-color: var(--background-dark-color);
+    padding: 60px 0;
+}
+
+/* address */
+
+.address-link {
+    color: var(--white-color);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.address-item {
+    margin-bottom: 9px;
+  }
+
+.address {
+    margin-top: 20px;
+}
+
+/* logo */
 
 .logo-span {
     font-family: "Raleway", sans-serif;
@@ -176,19 +252,21 @@ header {
     font-weight: 700;
 }
 
-.footer {
-    background-color: var(--background-dark-color);
-    width: 1600px;
-    height: 252px;
-    margin-top: 94px;
-}
-
 .logo-basement {
     font-family: "Raleway", sans-serif;
     color: var(--white-color);
     font-size: 26px;
     font-weight: 700;
     text-transform: capitalize
+}
+
+/* button */
+
+.center-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin-top: 94px;
 }
 
 .tel {
@@ -215,30 +293,13 @@ header {
     background-color: var(--brand-color);
 }
 
-h2 {
+.works-title,
+.team-title {
     font-size: 34px;
     font-weight: 700;
     text-transform: uppercase;
     text-align: center;
     color: var(--main-text-color);
-}
-
-.team-name {
-    font-size: 16px;
-    font-weight: 500;
-    color: var(--main-text-color);
-}
-
-.team-position {
-    color: var(--gray-color);
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.address-link {
-    color: var(--white-color);
-    font-size: 14px;
-    font-weight: 400;
 }
 
 .studio {
@@ -247,25 +308,10 @@ h2 {
     font-weight: 500;
 }
 
-button {
-    border-radius: 4px;
-}
-
-.team-list {
-    height: 648px;
-}
-
 .base-ment-list {
     color: rgba(117, 117, 117, 4);
     font-size: 14px;
     font-weight: 400;
-}
-
-.center-button {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 94px;
 }
 
 .portfolio-list {
@@ -273,38 +319,3 @@ button {
     font-weight: 500;
     font-size: 14px;
 }
-
-.works {
-    height: 386px;
-    margin-top: 94px;
-  }
-
-.works-list {
-    margin-top: 50px;
-    display: flex;
-  }
-
-  .team-list {
-    margin-top: 50px;
-    display: flex;
-  }
-
-  .address-item {
-    margin-bottom: 9px;
-  }
-
-  .address {
-    margin-top: 20px;
-  }
-
-  .team {
-    text-align: center;
-    height: 648px;
-    background-color: var(--background-light-color);
-    margin-bottom: 30px;
-    margin-top: 94px;
-  }
-
-  .team-img {
-    width: 260px;
-  }
