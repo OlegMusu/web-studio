@@ -166,6 +166,7 @@ header {
 
 .works {
     padding: 94px 0;
+    justify-content: space-between;
 }
 
 .works-item {
@@ -209,6 +210,7 @@ header {
     text-align: center;
     background-color: var(--background-light-color);
     padding: 94px 0;
+    justify-content: space-between;
 }
 
 .team-img {
