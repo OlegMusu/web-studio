@@ -18,7 +18,7 @@ button {
 }
 
 .container {
-    width: 1170px;
+    width: 1175px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -160,6 +160,10 @@ header {
 
 .advantages-item {
     max-width: 270px;
+}
+
+.advantage {
+    margin-bottom: 94px;
 }
 
 /* work(s) */
@@ -320,4 +324,8 @@ header {
     color: var(--main-text-color);
     font-weight: 500;
     font-size: 14px;
+}
+
+.project {
+    padding: 0 30px;
 }
