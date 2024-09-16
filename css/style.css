@@ -166,6 +166,10 @@ header {
     margin-bottom: 94px;
 }
 
+.advantage-img {
+padding-bottom: 20px;
+}
+
 /* work(s) */
 
 .works {
@@ -180,6 +184,7 @@ header {
 .works-list {
     margin-top: 50px;
     display: flex;
+    justify-content: space-between;
   }
 
 /* team */
@@ -202,12 +207,12 @@ header {
 
 .team-item {
     background-color: var(--white-color);
-    padding: 0 15px;
 }
 
 .team-list {
     margin-top: 50px;
     display: flex;
+    justify-content: space-between;
 }
 
 .team {
@@ -266,35 +271,46 @@ header {
     text-transform: capitalize
 }
 
-/* button */
+/* portfolio */
 
-.center-button {
+.portfolio-list {
+    color: var(--main-text-color);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.portfolio {
+    padding-top: 94px;
+    padding-bottom: 34px;
+}
+
+.portfolio-btns {
     display: flex;
     justify-content: center;
-    margin-bottom: 50px;
-    margin-top: 94px;
+    gap: 8px;
 }
 
 .tel {
     color: var(--gray-color);
 }
 
-.filters {
+.portfolio-btn-element {
     color: var(--main-text-color);
     background-color: var(--background-light-color);
     height: 38px;
     size: 16px;
     font-weight: 500;
     line-height: 26px;
+    padding: 6px 22px
 }
 
-/* .filters:active {
+/* .portfolio-btn-element:active {
     color: #FFFFFF;
     background-color: #2196F3;
 } */
 
-.filters:focus,
-.filters:hover {
+.portfolio-btn-element:focus,
+.portfolio-btn-element:hover {
     color: var(--white-color);
     background-color: var(--brand-color);
 }
@@ -306,6 +322,7 @@ header {
     text-transform: uppercase;
     text-align: center;
     color: var(--main-text-color);
+    justify-content: space-between;
 }
 
 .studio {
@@ -320,12 +337,6 @@ header {
     font-weight: 400;
 }
 
-.portfolio-list {
-    color: var(--main-text-color);
-    font-weight: 500;
-    font-size: 14px;
-}
-
 .project {
-    padding: 0 30px;
+    padding: 30px 30px;
 }
