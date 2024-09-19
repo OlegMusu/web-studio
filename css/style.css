@@ -38,6 +38,12 @@ button {
         justify-content: space-between;
     }
 
+    .hero-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
 /* header */
 
 header {
@@ -45,7 +51,6 @@ header {
 }
 
 .header {
-    display: flex;
     padding: 24px 0;
 }
 
@@ -118,9 +123,9 @@ header {
 .hero-title {
     color: var(--white-color);
     font-size: 44px;
+    width: 696px;
     font-weight: 900;
-    transform: uppercase;
-    flex-wrap: wrap;
+    text-transform: uppercase;
 }
 
 /* advantage(s) */
@@ -134,6 +139,8 @@ header {
     font-size: 14px;
     font-weight: 400;
     margin-top: 10px;
+    letter-spacing: 0.42px;
+    line-height:1.7;
 }
 
 .advantage-list {
@@ -151,7 +158,8 @@ header {
     font-weight: 700;
     text-transform: uppercase;
     color: var(--main-text-color);
-    justify-content: space-between;
+    letter-spacing: 0.42px;
+    height: 1.1;
 }
 
 .advantages-item {
@@ -162,10 +170,6 @@ header {
     max-width: 270px;
 }
 
-.advantage {
-    margin-bottom: 94px;
-}
-
 .advantage-img {
 padding-bottom: 20px;
 }
@@ -174,10 +178,6 @@ padding-bottom: 20px;
 
 .works {
     padding: 94px 0;
-    justify-content: space-between;
-}
-
-.works-item {
     justify-content: space-between;
 }
 
@@ -207,6 +207,7 @@ padding-bottom: 20px;
 
 .team-item {
     background-color: var(--white-color);
+     justify-content: space-between;
 }
 
 .team-list {
