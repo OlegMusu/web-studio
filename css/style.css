@@ -197,6 +197,7 @@
 .advantage-textbox {
     padding: 20px 24px;
     border: 1px solid #eee;
+    transition: box-shadow 300ms ease-in-out;
 }
 
 .advantage-textbox:hover {
