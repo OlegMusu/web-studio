@@ -1,3 +1,9 @@
+*,
+::before
+::after {
+    box-sizing: border-box;
+}
+
 :root {
     --brand-color: #2196F3;
     --white-color: #FFFFFF;
@@ -5,7 +11,7 @@
     --gray-color: #757575;
     --background-dark-color: #2F303A;
     --portfolio-border-color: #EEEEEE;
-    --header-border-color: #ECECEC;
+    --header-border-color: #FFFFFF;
     --background-light-color: #F5F4FA;
     --font-family: "Roboto", sans-serif;
     --second-family: "Raleway", sans-serif;
@@ -311,6 +317,7 @@
 .team-item {
     background-color: var(--white-color);
     transition: box-shadow 200ms ease-in-out;
+    border-radius: 4px;
 }
 
 .team-item:hover {
@@ -331,7 +338,18 @@
 }
 
 .team-img {
-    width: 260px;
+    border-radius: 4px 4px 0 0;
+}
+
+/* clients */
+
+.clients-text {
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 94px;
+    margin-bottom: 50px;
 }
 
 /* footer */
